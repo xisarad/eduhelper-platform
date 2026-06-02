@@ -1,0 +1,17 @@
+{
+  "name": "eduhelper-platform",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:client": "cd packages/client && npm run dev",
+    "dev:server": "cd packages/server && npm run dev",
+    "build:client": "cd packages/client && npm run build",
+    "build:server": "cd packages/server && npm run build",
+    "lint:client": "cd packages/client && npm run lint",
+    "lint:server": "cd packages/server && npm run lint",
+    "lint:shared": "cd packages/shared && npm run lint"
+  }
+}
